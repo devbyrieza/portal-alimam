@@ -75,7 +75,7 @@ export default function PortalSuperApp() {
       <header className="relative z-10 w-full py-8 px-6 lg:px-12 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <div className="w-14 h-14 bg-white rounded-2xl shadow-xl shadow-primary-900/10 p-2 flex items-center justify-center border border-white">
-            <Image src="/logo.png" alt="Logo" width={48} height={48} className="object-contain" />
+            <Image src="/logo-alimam.png" alt="Logo" width={48} height={48} className="object-contain" />
           </div>
           <div>
             <h1 className="text-2xl font-black text-slate-800 tracking-tight">Portal Al-Imam</h1>
