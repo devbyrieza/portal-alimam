@@ -106,9 +106,9 @@ export default function PortalSuperApp() {
         {/* The Kiosk Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mx-auto">
           {portalApps.map((app) => (
-            <Link href={app.link} key={app.id}>
+            <Link href={app.link} key={app.id} className="block h-full">
               <div 
-                className={`group relative bg-white/80 backdrop-blur-xl border border-white rounded-3xl p-8 shadow-xl transition-all duration-500 cursor-pointer overflow-hidden
+                className={`group relative h-full flex flex-col bg-white/80 backdrop-blur-xl border border-white rounded-3xl p-8 shadow-xl transition-all duration-500 cursor-pointer overflow-hidden
                   ${app.bgHover} hover:-translate-y-2 hover:bg-white
                 `}
                 onMouseEnter={() => setHoveredCard(app.id)}
@@ -124,7 +124,7 @@ export default function PortalSuperApp() {
                 <h3 className="text-2xl font-black text-slate-800 mb-2">{app.title}</h3>
                 <p className="text-slate-500 font-medium leading-relaxed mb-8">{app.desc}</p>
                 
-                <div className="flex items-center gap-2 text-sm font-bold text-slate-400 group-hover:text-slate-800 transition-colors">
+                <div className="mt-auto flex items-center gap-2 text-sm font-bold text-slate-400 group-hover:text-slate-800 transition-colors">
                   Buka Aplikasi <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
                 </div>
               </div>
