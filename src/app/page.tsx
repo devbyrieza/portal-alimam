@@ -66,7 +66,7 @@ export default function PortalSuperApp() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col relative overflow-hidden font-sans">
+    <div className="min-h-dvh bg-slate-50 flex flex-col relative overflow-hidden font-sans">
       {/* Background Decor - Platinum Standard */}
       <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-primary-200/50 blur-[120px] z-0 pointer-events-none"></div>
       <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-emerald-200/40 blur-[100px] z-0 pointer-events-none"></div>
